@@ -46,7 +46,8 @@ header h1{
 }
 
 .header__pageTitle{
-    background-color: coral;
+    background-color: black;
+    color: white;
     width: 90%;
 }
 
@@ -101,4 +102,9 @@ p{
 main div{
     height: 200px;
     width: 800px;
+}
+
+.select{
+    text-decoration: none;
+    color: black;
 }
