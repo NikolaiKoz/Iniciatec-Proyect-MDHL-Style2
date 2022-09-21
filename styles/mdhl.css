@@ -1,109 +1,166 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap');
-
 *{
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     height: 100vh;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* HEADER */
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-header h1{
-    font-weight: 600;
-    font-style: italic;
-    font-size: 60px;
+.header{
     position: relative;
-    top: 80px;
-    left: 6%;
-    align-self: flex-start;
-    z-index: 1;
+    margin: 5% 0;
 }
 
-.header__imgContainer{
-    height: 250px;
-    width: 90%;
-    overflow: hidden;
-    margin-bottom: 5px;
-}
-
-.header__imgContainer img{
+.header__title{
     width: 100%;
-    display: block;
-    transform: translateY(-130px);
+    position: absolute;
+    font-size: 3em;
+    text-indent: 0.1em;
 }
 
-.header__pageTitle{
-    background-color: black;
+.header__img{
+    height: 15em;
+    background-image: url(../assets/img/design1_image1.jpg);
+    background-position: center;
+    margin-bottom: 0.2em;
+}
+
+.header__subtitle{
+    background: black;
     color: white;
-    width: 90%;
-}
-
-.header__pageTitle h2{
     text-align: center;
-    font-weight: 600;
-    font-style: italic;
 }
 
-.header__logoContainer{
-    position: relative;
-    bottom: 150px;
-    left: 500px;
-    height: 150px;
+.header__logo{
+    height: 10em;
+    position: absolute;
+    right: 5%;
+    top: 60%;
 }
 
-.header__logoContainer img {
-    height: 200px;
+.header__logo__logo{
+    height: 100% ;
 }
 
 /* MAIN */
-main{
-    display: flex;
-    justify-content: space-evenly;
-    transform: translateY(-70px);
-}
-/* Nav */
 
-main nav{
+.main{
+    display: flex;
+}
+
+/* NAVBAR */
+
+.main__navbar{
+    width: 15%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
-ul{
-    height: 200px;
+.main__navbar__anchor{
+    margin-bottom: 3em;
 }
 
-li{
-    list-style: none;
-    width: 800px;
+/* SECTION --- HOME PAGE, ABOUT PAGE */
+
+.main__content{
+    width: 85%;
 }
 
-h3{
-    font-weight: 600;
-}
-p{
-    margin-bottom: 10px;
-    text-indent: 20px;
+.home__main__content__game{
+    padding-left: 2em;
+    margin-bottom: 1em;
 }
 
-main div{
-    height: 200px;
-    width: 800px;
-}
-
-.select{
+.selected{
     text-decoration: none;
     color: black;
+}
+
+/* SECTION --- CONTACT PAGE */
+
+.contact__main__content__p{
+    margin-bottom: 1em;
+}
+
+/* SECTION -- RULES & POLICIES, GAME INFORMATION */
+
+.bold{
+    font-weight: bold;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.subline{
+    text-decoration: underline;
+}
+
+.buttonSpace{
+    margin-bottom: 2em;
+}
+
+.indent{
+    text-indent: 2em;
+}
+
+.liAlign{
+    margin-left: 1em;
+}
+
+.liAlign2{
+    margin-left: 4em;
+}
+
+.inline{
+    display: inline;
+}
+
+::marker{
+    font-weight: bold;
+}
+
+.listTipe_a{
+    list-style: lower-alpha;
+}
+
+.listType_whiteCircle{
+    list-style: circle;
+}
+
+/* GAME INFORMATION */
+
+.containerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonSpace2{
+    margin-bottom: 4em;
+}
+
+.gameInfo__main__section__table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+.textStart{
+    text-align: start;
 }

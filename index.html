@@ -1,53 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang              = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/mdhl.css">
-    <title>Home</title>
+    <meta name          = "Author" lang="es" content="Jose Luis Vallejos">
+    <meta name          = "keywords" content="hockey, ducks, mighty, league, home, site">
+    <meta name          = "description" content="Mighty Ducks League of hockey">
+    <meta name          = "copyright" content="Copyright MDHL">
+    <meta name          = "robot" content="index">
+    <meta charset       = "UTF-8">
+    <meta http-equiv    = "X-UA-Compatible" content="IE=edge">
+    <meta name          = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel           = "shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel           = "stylesheet" href="./styles/mdhl.css">
+    <title>home</title>
 </head>
-
 <body>
-    <header>
-        <h1>Mighty Ducks Hockey League</h1>
-        <div class="header__imgContainer">
-            <img src="./assets/img/design1_image1.jpg" alt="header Imagen">
-        </div>
-        <div class="header__pageTitle">
-            <h2>Upcoming Events</h2>
-        </div>
-        <div class="header__logoContainer">
-            <img src="./assets/img/logo.png" alt="Logo">
+    <!-- HEADER -->
+    <header class       = "header">
+        <h1 class       = "header__title">Mighty Ducks Hockey League</h1>
+        <div class      = "header__img"></div>
+        <h2 class       = "header__subtitle">Upcoming Events</h2>
+        <div class      = "header__logo">
+            <img src    = "./assets/img/logo.png" alt="logo" class="header__logo__logo">
         </div>
     </header>
-    <main>
-        <nav>
-            <a class="select" href="index.html">Home</a>
-            <a href="./pages/about.html">About MDHL</a>
-            <a href="./pages/contact.html">Contact</a>
+    <!-- MAIN -->
+    <main class         = "main">
+        <!-- NAVBAR -->
+        <nav class      = "main__navbar">
+            <a class    = "main__navbar__anchor selected" href="./index.html">Home</a>
+            <a class    = "main__navbar__anchor" href="./pages/about.html">About MDHL</a>
+            <a class    = "main__navbar__anchor" href="./pages/contact.html">Contact</a>
+            <a class    = "main__navbar__anchor" href="./pages/rules.html">Rules & Policies</a>
+            <a class    = "main__navbar__anchor" href="./pages/game_info.html">Game info</a>
         </nav>
-        <ul>
-            <li>
-                <h3>August 4</h3>
-                <p>MDSL Fundraiser</p>
-            </li>
-            <li>
-                <h3>August 16</h3>
-                <p>Season Kick-off: Meet the Teams</p>
-            </li>
-            <li>
-                <h3>September 1</h3>
-                <p>First game of the Season (Check Game Schedule for details)</p>
-            </li>
-        </ul>
+        <!-- SECTION -->
+        <section class  = "main__content">
+            <h3 class   = "home__main__content__date">August 4</h3>
+            <p class    = "home__main__content__game">MDSL Foudraiser</p>
+            <h3 class   = "home__main__content__date">August 16</h3>
+            <p class    = "home__main__content__game">Season Kick-off: Meet the Teams</p>
+            <h3 class   = "home__main__content__date">September 1</h3>
+            <p class    = "home__main__content__game">First Game of the Season (Check Game Schedule for details)</p>
+        </section>
     </main>
-    <p>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px"
-                src="http://jigsaw.w3.org/css-validator/images/vcss"
-                alt="¡CSS Válido!" />
-        </a>
-    </p>
 </body>
 </html>
