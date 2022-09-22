@@ -11,7 +11,7 @@
     <meta name          = "viewport" content="width=device-width, initial-scale=1.0">
     <link rel           = "shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
     <link rel           = "stylesheet" href="./styles/mdhl.css">
-    <title>home</title>
+    <title>Home</title>
 </head>
 <body>
     <!-- HEADER -->
@@ -19,20 +19,21 @@
         <h1 class       = "header__title">Mighty Ducks Hockey League</h1>
         <div class      = "header__img"></div>
         <h2 class       = "header__subtitle">Upcoming Events</h2>
-        <div class      = "header__logo">
-            <img src    = "./assets/img/logo.png" alt="logo" class="header__logo__logo">
-        </div>
+        <!-- NAVBAR -->
+        <nav class      = "header__navbar">
+            <a class    = "header__navbar__anchor selected" href="./index.html">Home</a>
+            <a class    = "header__navbar__anchor" href="./pages/about.html">About MDHL</a>
+            <a class    = "header__navbar__anchor" href="./pages/contact.html">Contact</a>
+            <a class    = "header__navbar__anchor" href="./pages/rules.html">Rules & Policies</a>
+            <a class    = "header__navbar__anchor" href="./pages/game_info.html">Game info</a>
+        </nav>
     </header>
     <!-- MAIN -->
     <main class         = "main">
-        <!-- NAVBAR -->
-        <nav class      = "main__navbar">
-            <a class    = "main__navbar__anchor selected" href="./index.html">Home</a>
-            <a class    = "main__navbar__anchor" href="./pages/about.html">About MDHL</a>
-            <a class    = "main__navbar__anchor" href="./pages/contact.html">Contact</a>
-            <a class    = "main__navbar__anchor" href="./pages/rules.html">Rules & Policies</a>
-            <a class    = "main__navbar__anchor" href="./pages/game_info.html">Game info</a>
-        </nav>
+        <!-- LOGO -->
+        <div class      = "main__logo">
+            <img src    = "./assets/img/logo.png" alt="logo" class="main__logo__logo">
+        </div>
         <!-- SECTION -->
         <section class  = "main__content">
             <h3 class   = "home__main__content__date">August 4</h3>

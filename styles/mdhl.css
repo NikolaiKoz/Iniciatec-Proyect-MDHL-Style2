@@ -19,33 +19,42 @@ body{
 
 .header__title{
     width: 100%;
-    position: absolute;
     font-size: 3em;
-    text-indent: 0.1em;
 }
 
 .header__img{
     height: 15em;
+    width: 99%;
+    margin: 0 auto;
     background-image: url(../assets/img/design1_image1.jpg);
-    background-position: center;
-    margin-bottom: 0.2em;
+    background-position-y: 25%;
 }
 
 .header__subtitle{
-    background: black;
-    color: white;
+    color: black;
     text-align: center;
+    border: 2px solid black;
 }
 
-.header__logo{
-    height: 10em;
+/* NAVBAR */
+
+.header__navbar{
     position: absolute;
-    right: 5%;
-    top: 60%;
+    bottom: 80%;
+    right: 1%;
 }
 
-.header__logo__logo{
-    height: 100% ;
+.header__navbar__anchor{
+    text-decoration: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    margin-left: 0.3em;
+    padding: 0.3em 0.5em;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.selected{
+    background-color: rgb(0, 255, 64);
 }
 
 /* MAIN */
@@ -54,17 +63,15 @@ body{
     display: flex;
 }
 
-/* NAVBAR */
+/* LOGO */
 
-.main__navbar{
+
+.main__logo{
     width: 15%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
-.main__navbar__anchor{
-    margin-bottom: 3em;
+.main__logo__logo{
+    width: 100%;
 }
 
 /* SECTION --- HOME PAGE, ABOUT PAGE */
@@ -78,10 +85,6 @@ body{
     margin-bottom: 1em;
 }
 
-.selected{
-    text-decoration: none;
-    color: black;
-}
 
 /* SECTION --- CONTACT PAGE */
 
