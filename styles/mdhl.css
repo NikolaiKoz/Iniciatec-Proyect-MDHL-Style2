@@ -19,7 +19,7 @@ body{
 
 .header__title{
     width                   : 100%;
-    font-size               : 3em;
+    font-size               : 2.5em;
 }
 
 .header__img{
@@ -40,7 +40,7 @@ body{
 
 .header__navbar{
     position                : absolute;
-    bottom                  : 80%;
+    bottom                  : 82%;
     right                   : 1%;
 }
 
@@ -143,27 +143,63 @@ body{
 }
 
 .listType_whiteCircle{
-    list-style              : circle;
+    list-style        : circle;
 }
 
 /* GAME INFORMATION */
 
 .containerFlex{
-    display                 : flex;
-    justify-content         : space-between;
+    display           : flex;
+    justify-content   : space-between;
 }
 
 .buttonSpace2{
-    margin-bottom           : 4em;
+    margin-bottom     : 4em;
 }
 
 .gameInfo__main__section__table{
-    width                   : 100%;
-    margin                  : 0 auto;
-    border-collapse         : separate;
-    border-spacing          : 0 1em;
+    width             : 100%;
+    margin            : 0 auto;
+    border-collapse   : separate;
+    border-spacing    : 0 1em;
 }
 
 .textStart{
-    text-align              : start;
+    text-align        : start;
+}
+
+/* REGISTRATUIN FORM */
+
+.main__content__title{
+    text-align        : center;
+    margin-bottom     : 1em;
+}
+
+/* INPUTS */
+
+.generalStyles{
+    border            : 0;
+    border-bottom     : 1px solid black;
+    width             : 30%;
+    margin-bottom     : 1em;
+}
+
+.maxLine{
+    width             : 73%;
+}
+
+/* SUB TITLES */
+
+.main__content__form__subTitle{
+    margin-top        : 2em;
+    margin-bottom     : 0.668em;
+}
+
+.main__content__form__containerFlex{
+    display           : flex;
+    margin-top        : .668em;
+}
+
+.main__content__form__containerFlex > div{
+    margin-right      : 2em;
 }
